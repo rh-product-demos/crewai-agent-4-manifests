@@ -1,0 +1,5 @@
+nodejs-on-openshift:
+  image:
+    repository: ghcr.io/rhdh-demo-gh/crewai-agent-4
+    pullPolicy: IfNotPresent
+    tag: "main"
