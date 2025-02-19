@@ -1,6 +1,6 @@
-nodejs-on-openshift:
+crewai-on-openshift:
   image:
-    repository: ghcr.io/rhdh-demo-gh/${{ values.name }}
+    repository: ghcr.io/rhdh-demo-gh/{{ .Values.name }}
     pullPolicy: IfNotPresent
     tag: "main"
 
